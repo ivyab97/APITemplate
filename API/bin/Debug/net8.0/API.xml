@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.UserController.GetById(System.Int32)">
+            <summary>
+            Returns a User given their ID
+            </summary>
+            <response code="200">Return a User as Result</response>
+        </member>
+        <member name="M:API.Controllers.UserController.GetAll">
+            <summary>
+            Returns all records
+            </summary>
+            <response code="200">Returns a list of Users as Result</response>
+        </member>
+        <member name="M:API.Controllers.UserController.CreateEntity(Application.DTO.Request.UserRequest)">
+            <summary>
+            Register a User with their respective data
+            </summary>
+            <response code="201">Returns the User created as Result</response>
+        </member>
+        <member name="M:API.Controllers.UserController.UpdateEntity(System.Int32,Application.DTO.Request.UserRequest)">
+            <summary>
+            Modify a User, request ID and the info to be updated
+            </summary>
+            <response code="200">Returns the updated User as Result</response>
+        </member>
+        <member name="M:API.Controllers.UserController.UpdatePartialEntity(System.Int32,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{Application.DTO.Request.UserRequest})">
+            <summary>
+            Modify a User field, request ID and the attribute to update
+            </summary>
+            <response code="200">Returns the updated User as Result</response>
+        </member>
+        <member name="M:API.Controllers.UserController.DeleteById(System.Int32)">
+            <summary>
+            Delete a User given their ID
+            </summary>
+            <response code="200">Returns null in Result</response>
+        </member>
+    </members>
+</doc>
