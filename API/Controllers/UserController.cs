@@ -1,4 +1,5 @@
 ﻿using Application.DTO.Error;
+using Application.DTO.Pagination;
 using Application.DTO.Request;
 using Application.DTO.Response;
 using Application.Interfaces;
@@ -55,19 +56,19 @@ namespace API.Controllers
 
 
         /// <summary>
-        /// Returns all records
+        /// Returns a page of records
         /// </summary>
-        /// <response code="200">Returns a list of Users as Result</response>
+        /// <response code="200">Returns a page of Users as Result</response>
 
         [HttpGet]
-        [ProducesResponseType(typeof(HTTPResponse<List<UserResponse>>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(HTTPResponse<Paged<UserResponse>>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(HTTPResponse<string>), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(HTTPResponse<string>), StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult> GetAll()
+        public async Task<ActionResult> GetAll(int pagedNumber = 0, int pagedSize = 10)
         {
             try
             {
-                _response.Result = await _service.GetAll();
+                _response.Result = await _service.GetAll(pagedNumber, pagedSize);
                 _response.StatusCode = (HttpStatusCode)200;
                 _response.Status = "OK";
                 return new JsonResult(_response) { StatusCode = 200 };

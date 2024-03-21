@@ -10,11 +10,11 @@
             </summary>
             <response code="200">Return a User as Result</response>
         </member>
-        <member name="M:API.Controllers.UserController.GetAll">
+        <member name="M:API.Controllers.UserController.GetAll(System.Int32,System.Int32)">
             <summary>
-            Returns all records
+            Returns a page of records
             </summary>
-            <response code="200">Returns a list of Users as Result</response>
+            <response code="200">Returns a page of Users as Result</response>
         </member>
         <member name="M:API.Controllers.UserController.CreateEntity(Application.DTO.Request.UserRequest)">
             <summary>

@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using Application.DTO.Pagination;
+using Application.Interfaces;
 using Infraestructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,9 +22,10 @@ namespace Infraestructure.Repositories
             return entity;
         }
 
-        public async Task<List<T>> RecoveryAll()
+        public async Task<Paged<T>> RecoveryAll(Parameters parameters)
         {
-            return await dbSet.ToListAsync();
+            //return await dbSet.ToListAsync();
+            return Paged<T>.ToPaged(dbSet, parameters.PageNumber, parameters.PageSize);
         }
 
         public async Task<T> RecoveryById(int id)

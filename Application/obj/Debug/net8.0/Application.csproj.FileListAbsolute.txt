@@ -28,3 +28,4 @@ D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITempl
 D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\Application\obj\Debug\net8.0\refint\Application.dll
 D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\Application\obj\Debug\net8.0\Application.pdb
 D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\Application\obj\Debug\net8.0\ref\Application.dll
+D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\Application\obj\Debug\net8.0\Application.sourcelink.json

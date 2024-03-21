@@ -2,6 +2,7 @@
 using AutoMapper;
 using Application.DTO.Error;
 using Microsoft.EntityFrameworkCore;
+using Application.DTO.Pagination;
 
 namespace Application.UseCase.Services
 {
@@ -9,10 +10,13 @@ namespace Application.UseCase.Services
     {
         protected readonly IRepository<T> _repository;
         protected readonly IMapper _mapper;
+        public Parameters parameters;
+
         public Service(IRepository<T> repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
+            parameters = new();
         }
         public async Task<Response> Create(Request request)
         {
@@ -65,14 +69,24 @@ namespace Application.UseCase.Services
             }
         }
 
-        public async Task<List<Response>> GetAll()
+        public async Task<Paged<Response>> GetAll(int pagedNumber, int pagedSize)
         {
             try
             {
-                List<T> list = await _repository.RecoveryAll();
-                List<Response> response = new List<Response>();
-                list.ForEach(e => response.Add(_mapper.Map<Response>(e)));
-                return response;
+                if (pagedNumber>=0 && pagedSize>=0)
+                {
+                    parameters.PageSize = pagedSize;
+                    parameters.PageNumber = pagedNumber;
+                } else
+                {
+                    throw new BadRequestException("Ingrese valores válidos para pagedNumber y pagedSize.");
+                }
+
+                Paged<T> list = await _repository.RecoveryAll(parameters);
+                List<Response> listAux = new();
+                list.Data.ForEach(e => listAux.Add(_mapper.Map<Response>(e)));
+
+                return new Paged<Response>(listAux, list.MetaData.TotalCount, parameters.PageNumber, parameters.PageSize);
             }
             catch (Exception e)
             {

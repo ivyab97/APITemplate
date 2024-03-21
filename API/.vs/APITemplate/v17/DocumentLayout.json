@@ -3,6 +3,31 @@
   "WorkspaceRootPath": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0B5CE73-BFBF-4AA6-A800-B5A051694BB3}|API.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0B5CE73-BFBF-4AA6-A800-B5A051694BB3}|API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866AD143-6BBA-407C-9AE2-C9648AFAB9D8}|..\\Application\\Application.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\application\\dto\\pagination\\paged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866AD143-6BBA-407C-9AE2-C9648AFAB9D8}|..\\Application\\Application.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\application\\usecase\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866AD143-6BBA-407C-9AE2-C9648AFAB9D8}|..\\Application\\Application.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\application\\dto\\pagination\\parameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866AD143-6BBA-407C-9AE2-C9648AFAB9D8}|..\\Application\\Application.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\application\\interfaces\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3EA04B-CC36-4361-812D-E99619C6278F}|..\\Infraestructure\\Infraestructure.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\infraestructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866AD143-6BBA-407C-9AE2-C9648AFAB9D8}|..\\Application\\Application.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866AD143-6BBA-407C-9AE2-C9648AFAB9D8}|..\\Application\\Application.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\application\\dto\\pagination\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0B5CE73-BFBF-4AA6-A800-B5A051694BB3}|API.csproj|d:\\ingenier\u00EDa informatica\\1 - proyecto de software\\proyecto integrador\\apitemplate\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B0B5CE73-BFBF-4AA6-A800-B5A051694BB3}|API.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -22,7 +47,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,8 +58,116 @@
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T20:45:07.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:17:26.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Infraestructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\Infraestructure\\Repositories\\Repository.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Infraestructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "..\\Infraestructure\\Repositories\\Repository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:16:50.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IService.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\Interfaces\\IService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IService.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\Interfaces\\IService.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:14:03.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\UseCase\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "..\\Application\\UseCase\\Services\\Service.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\UseCase\\Services\\Service.cs",
+              "RelativeToolTip": "..\\Application\\UseCase\\Services\\Service.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwEcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:12:46.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Paged.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\DTO\\Pagination\\Paged.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\Pagination\\Paged.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\DTO\\Pagination\\Paged.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\Pagination\\Paged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:03:13.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MetaData.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\DTO\\Pagination\\MetaData.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\Pagination\\MetaData.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\DTO\\Pagination\\MetaData.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\Pagination\\MetaData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:01:05.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Parameters.cs",
+              "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\DTO\\Pagination\\Parameters.cs",
+              "RelativeDocumentMoniker": "..\\Application\\DTO\\Pagination\\Parameters.cs",
+              "ToolTip": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\Application\\DTO\\Pagination\\Parameters.cs",
+              "RelativeToolTip": "..\\Application\\DTO\\Pagination\\Parameters.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:00:20.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -47,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -55,16 +188,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-21T13:35:18.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "WhenOpened": "2024-03-21T13:35:18.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ingenier\u00EDa Informatica\\1 - Proyecto de Software\\Proyecto integrador\\APITemplate\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -72,8 +200,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T13:34:21.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T13:34:21.227Z"
             }
           ]
         }

@@ -304,3 +304,4 @@ D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITempl
 D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\API\obj\Debug\net8.0\API.pdb
 D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\API\obj\Debug\net8.0\ref\API.dll
+D:\Ingeniería Informatica\1 - Proyecto de Software\Proyecto integrador\APITemplate\API\obj\Debug\net8.0\API.sourcelink.json

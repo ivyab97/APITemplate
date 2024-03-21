@@ -6,10 +6,21 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pagedNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagedSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "Application.DTO.Response.HTTPResponse\u00601[[System.Collections.Generic.List\u00601[[Application.DTO.Response.UserResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "Application.DTO.Response.HTTPResponse\u00601[[Application.DTO.Pagination.Paged\u00601[[Application.DTO.Response.UserResponse, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
